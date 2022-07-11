@@ -15,6 +15,10 @@ changelog:
       labels:
         - Semver-Minor
         - enhancement
+    - title: Solve new problem
+      labels:
+        - Semver-Major
+        - solve
     - title: Other Changes
       labels:
         - "*"
