@@ -1,4 +1,4 @@
-name: Release
+# https://dev.classmethod.jp/articles/github-actions-semantic-release-sample/]name: Release
 on:
   push:
     branches:
