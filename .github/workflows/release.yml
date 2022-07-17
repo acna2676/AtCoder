@@ -2,12 +2,13 @@
 # https://itnext.io/automate-your-releases-versioning-and-release-notes-with-semantic-release-d5575b73d986
 # https://dev.classmethod.jp/articles/github-actions-semantic-release-sample/
 # FIXME mainへのプルリク時に動くようにする
+# https://dev.classmethod.jp/articles/howto-use-github-tag/
 name: Release
 on:
   pull_request:
     types: [closed]
     branches:
-      - master
+      - main
 jobs:
   release:
     name: Release
