@@ -5,8 +5,9 @@
 # https://dev.classmethod.jp/articles/howto-use-github-tag/
 name: Release
 on:
-  pull_request:
-    types: [closed]
+  # pull_request:
+  push:
+    # types: [closed]
     branches:
       - main
 jobs:
