@@ -15,13 +15,13 @@ jobs:
     name: Release
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2
+      # - uses: actions/checkout@v2
       - name: Bump version and push tag
         id: tag_version
         uses: mathieudutour/github-tag-action@v5
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          default_bump: "minor"
+          # default_bump: "minor"
       - name: Publish release
         uses: actions/create-release@v1
         env:
