@@ -71,6 +71,7 @@ int main() {
         /* code */
     }
     print_int(operand);
+    print_vec(vec);
 
     // vector<string> others = {};    //(1);
     // vector<int> operands = {};     //(2);
